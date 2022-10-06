@@ -27,6 +27,6 @@ const run = async (url: string, options: chromeLauncher.Options) => {
   }
 }
 
-const urlToTest = 'https://www.abrickis.me/';
+const urlToTest = 'https://dev.vismalatam.com';
 
 run(urlToTest, { chromeFlags: ['--headless'] });
